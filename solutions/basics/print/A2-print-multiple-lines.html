@@ -3,13 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>A2. Print Multiple Lines</title>
-
   <link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
-
   <nav>
     <div class="logo">HKSNova Notes</div>
     <div class="nav-links">
@@ -21,64 +18,52 @@
 
   <div class="container">
     <a href="print.html" class="back-btn">&larr; Back to Printing Problems</a>
-
-<div class="card">
-
-      <span class="tag">
-        A2 • Beginner
-      </span>
-
+    
+    <div class="premium-card">
+      <span class="tag">A2 � Beginner</span>
       <h1>Print Multiple Lines</h1>
+      <p class="premium-desc">Learn how to break your output into multiple lines.</p>
 
-      <p>
-        Learn how to print text on separate lines
-        using endl.
-      </p>
-
-      <h2>Solution</h2>
-
+      <h2 class="section-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+        Solution Code
+      </h2>
+      
       <div class="code-wrapper">
-        <button class="copy-btn" onclick="copyCode(this)">Copy Code</button>
-        <div class="box">
+        <div class="code-header">
+          <div class="mac-buttons">
+            <div class="mac-btn red"></div>
+            <div class="mac-btn yellow"></div>
+            <div class="mac-btn green"></div>
+          </div>
+          <div class="lang-label">main.cpp</div>
+          <button class="copy-btn" onclick="copyCode(this)">Copy Code</button>
+        </div>
 <pre>
 #include &lt;iostream&gt;
 using namespace std;
 
 int main() {
 
-    cout &lt;&lt; "Hello" &lt;&lt; endl;
-    cout &lt;&lt; "World";
+    cout &lt;&lt; "Line 1" &lt;&lt; endl;
+    cout &lt;&lt; "Line 2"&lt;&lt;endl;
+    cout&lt;&lt;"Line 3"&lt;&lt;endl;
 
     return 0;
 }
 </pre>
       </div>
-      </div>
 
-      <h2>Explanation</h2>
-
+      <h2 class="section-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+        Code Explanation
+      </h2>
+      
       <div class="explanation">
-
-        endl moves the cursor to the next line.
-
-        This helps organize the output clearly
-        instead of printing everything on one line.
-
+        We can use multiple <strong>cout</strong> statements to print on different lines. Each <strong>endl</strong> ensures that the next output will start on a new line. Notice how spacing around the <code>&lt;&lt;</code> operator doesn't affect the program's output.
       </div>
-
-      <h2>Output</h2>
-
-      <div class="box">
-<pre>
-Hello
-World
-</pre>
-      </div>
-
     </div>
-
   </div>
-
   <script src="../../../script.js"></script>
 </body>
 </html>

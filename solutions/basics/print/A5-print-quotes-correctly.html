@@ -1,40 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>A5 Print Quotes Correctly</title>
-
-<link rel="stylesheet" href="../../../style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A5. Print Quotes Correctly</title>
+  <link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
+  <nav>
+    <div class="logo">HKSNova Notes</div>
+    <div class="nav-links">
+      <a href="../../../index.html">Home</a>
+      <a href="../../solutions.html">Solutions</a>
+      <a href="../../../study-material/arrays.html">Study Material</a>
+    </div>
+  </nav>
 
-<div class="card">
+  <div class="container">
+    <a href="print.html" class="back-btn">&larr; Back to Printing Problems</a>
+    
+    <div class="premium-card">
+      <span class="tag">A5 � Beginner</span>
+      <h1>Print Quotes Correctly</h1>
+      <p class="premium-desc">Master the usage of quotes inside your output strings.</p>
 
-<h1>A5. Print Quotes Correctly</h1>
-
-<p>
-Learn how to print quotation marks correctly inside strings.
-</p>
-
-<div class="box">
+      <h2 class="section-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+        Solution Code
+      </h2>
+      
+      <div class="code-wrapper">
+        <div class="code-header">
+          <div class="mac-buttons">
+            <div class="mac-btn red"></div>
+            <div class="mac-btn yellow"></div>
+            <div class="mac-btn green"></div>
+          </div>
+          <div class="lang-label">main.cpp</div>
+          <button class="copy-btn" onclick="copyCode(this)">Copy Code</button>
+        </div>
 <pre>
 #include &lt;iostream&gt;
 using namespace std;
 
 int main() {
-
-    cout &lt;&lt; "\\"Programming is fun!\\"";
-
+    cout &lt;&lt; "She said, \"Learn C++!\"" &lt;&lt; endl;
     return 0;
 }
 </pre>
-</div>
+      </div>
 
-</div>
-
+      <h2 class="section-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+        Code Explanation
+      </h2>
+      
+      <div class="explanation">
+        To print double quotes inside a string, we must use the escape sequence <strong>\"</strong>. The compiler ignores the backslash and prints the literal double quote character without breaking the code.
+      </div>
+    </div>
+  </div>
   <script src="../../../script.js"></script>
 </body>
 </html>

@@ -287,3 +287,111 @@ nav {
   }
 
 }
+/* Premium UI Upgrade */
+.premium-card {
+  background: linear-gradient(to bottom right, #141414, #0b0b0c);
+  border: 1px solid #2a2a2a;
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+.premium-card h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.premium-desc {
+  color: #a0a0a0;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.section-title {
+  color: #ffa116;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.code-wrapper {
+  background: #0b0b0c;
+  border-radius: 12px;
+  border: 1px solid #2a2a2a;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  margin-bottom: 30px;
+}
+
+.code-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1a;
+  padding: 12px 20px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.mac-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.mac-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.mac-btn.red { background: #ff5f56; }
+.mac-btn.yellow { background: #ffbd2e; }
+.mac-btn.green { background: #27c93f; }
+
+.lang-label {
+  color: #888;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.copy-btn {
+  background: transparent;
+  color: #b0b0b0;
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.copy-btn:hover {
+  background: #2a2a2a;
+  color: #fff;
+  border-color: #ffa116;
+}
+
+.code-wrapper pre {
+  padding: 24px;
+  color: #e6e6e6;
+  font-family: 'Consolas', monospace;
+  font-size: 15px;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+
+.explanation {
+  background: linear-gradient(135deg, rgba(255,161,22,0.1), rgba(255,161,22,0.02));
+  border-left: 4px solid #ffa116;
+  padding: 24px;
+  border-radius: 12px;
+  line-height: 1.8;
+  font-size: 16px;
+  color: #d0d0d0;
+}
